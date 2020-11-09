@@ -66,6 +66,15 @@ li > a {
 
 }
 
+.informasjon_2{
+  font-family: courier;
+  font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+
 @media screen and (max-width: 700px) {
   .photo_main{
     width: 70%;
