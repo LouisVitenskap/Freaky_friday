@@ -40,12 +40,14 @@ margin-right: 45px;
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  opacity: 0.5;
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 li > a {
   text-decoration: none;
   color: white;
+  font-family: courier;
 }
 
 .informasjon{
@@ -69,6 +71,7 @@ li > a {
 }
 
 .informasjon_2{
+
   font-family: courier;
   font-size: 20px;
   padding-top: 40px;
@@ -105,6 +108,39 @@ hr{
 
 
 }
+
+p{
+font-size: 18px;
+}
+
+.menu > li:hover{
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.rett{
+  border: 2px solid #AAABB8;
+  padding: 16px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.lower{
+  text-align: center;
+  margin-right: 45px;
+  padding-top: 50px;
+}
+
+.lower > li{
+  display: inline;
+}
+
+.rett:hover{
+  transition: 0.3s;
+  background-color: #AAABB8;
+}
+
+
 
 @media screen and (max-width: 700px) {
   .photo_main{
