@@ -30,7 +30,7 @@ body{
 }
 
 .menu {
-padding: 8px;
+
 text-align: center;
 }
 
@@ -81,6 +81,6 @@ li > a {
   }
 
   li > a{
-    font-size: 12px;
+    font-size: 15px;
   }
 }
