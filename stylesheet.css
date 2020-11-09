@@ -70,4 +70,8 @@ li > a {
   .photo_main{
     width: 70%;
   }
+
+  li > a{
+    font-size: 12px;
+  }
 }
