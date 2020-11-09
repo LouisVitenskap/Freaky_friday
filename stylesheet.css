@@ -1,0 +1,47 @@
+body{
+
+  background-image: url('bilde7.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 800px){
+  .col-tall-10 {width : 10%;}
+  .col-tall-20 {width : 20%;}
+  .col-tall-30 {width : 30%;}
+  .col-tall-40 {width : 40%;}
+  .col-tall-50 {width : 50%;}
+  .col-tall-60 {width : 60%;}
+  .col-tall-70 {width : 70%;}
+  .col-tall-80 {width : 80%;}
+  .col-tall-100 {width : 100%;}
+}
+@media only screen and (max-width: 799px){
+  .col-small-10 {width : 10%;}
+  .col-small-20 {width : 20%;}
+  .col-small-30 {width : 30%;}
+  .col-small-40 {width : 40%;}
+  .col-small-50 {width : 50%;}
+  .col-small-60 {width : 60%;}
+  .col-small-70 {width : 70%;}
+  .col-small-80 {width : 80%;}
+  .col-small-100 {width : 100%;}
+}
+
+.menu {
+padding: 8px;
+text-align: center;
+}
+
+.menu > li{
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
