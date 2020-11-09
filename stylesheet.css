@@ -45,3 +45,11 @@ li > a {
   text-decoration: none;
   color: white;
 }
+
+.informasjon{
+  font-family: courier;
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+
+}
